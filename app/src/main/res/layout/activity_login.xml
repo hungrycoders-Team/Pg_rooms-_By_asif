@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Bg"
+    tools:context=".Login">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="12dp">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="16dp"
+            app:cardCornerRadius="8dp">
+
+            <com.smarteist.autoimageslider.SliderView
+                android:id="@+id/imageSlider"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:sliderAnimationDuration="600"
+                app:sliderAutoCycleDirection="back_and_forth"
+                app:sliderAutoCycleEnabled="true"
+                app:sliderCircularHandlerEnabled="true"
+                app:sliderIndicatorAnimationDuration="600"
+                app:sliderIndicatorGravity="center_horizontal|bottom"
+                app:sliderIndicatorMargin="15dp"
+                app:sliderIndicatorOrientation="horizontal"
+                app:sliderIndicatorPadding="3dp"
+                app:sliderIndicatorRadius="2dp"
+                app:sliderIndicatorSelectedColor="#5A5A5A"
+                app:sliderIndicatorUnselectedColor="#FFF"
+                app:sliderScrollTimeInSec="1"
+                app:sliderStartAutoCycle="true" />
+
+        </androidx.cardview.widget.CardView>
+
+
+<!--        <ImageView-->
+<!--            android:id="@+id/splashicon"-->
+<!--            android:layout_width="212dp"-->
+<!--            android:layout_height="163dp"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:src="@drawable/slider_one" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/font_first_screen"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/splashicon"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:fontFamily="@font/montserrat"-->
+<!--            android:text="No need to walk door to door"-->
+
+<!--            android:textColor="@color/fontblue"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textStyle="bold" />-->
+
+
+<!--        <TextView-->
+<!--            android:id="@+id/text_first_screen"-->
+<!--            android:layout_width="293dp"-->
+<!--            android:layout_height="90dp"-->
+<!--            android:layout_below="@id/font_first_screen"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:fontFamily="@font/montserrat"-->
+<!--            android:text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et"-->
+<!--            android:textAlignment="center"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:textColor="@color/fontgry"-->
+<!--            android:textSize="16sp" />-->
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/sliderdot"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="25dp"-->
+<!--            android:layout_below="@id/text_first_screen"-->
+<!--            android:gravity="center"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="@drawable/sliderorangedot"-->
+<!--                android:elevation="5dp"-->
+<!--                android:layout_margin="5dp"/>-->
+
+
+<!--            <ImageView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="@drawable/slidergredot"-->
+<!--                android:elevation="5dp"-->
+<!--                android:layout_margin="5dp"/>-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="@drawable/slidergredot"-->
+<!--                android:elevation="5dp"-->
+<!--                android:layout_margin="5dp"/>-->
+
+<!--        </LinearLayout>-->
+<!--        <LinearLayout-->
+<!--            android:id="@+id/loginbtn"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical"-->
+<!--            >-->
+
+<!--&lt;!&ndash;            <Button&ndash;&gt;-->
+<!--&lt;!&ndash;                android:id="@+id/Mainfacebookbtn"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="55dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_below="@id/sliderdot"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_centerVertical="true"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_marginTop="-1dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:background="@drawable/facebookloginbgbtn"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:drawableLeft="@drawable/ic_036_facebook"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:drawablePadding="-30dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:fontFamily="@font/montserrat"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:hint="Sign Up With Facebook"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:paddingLeft="32dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:textColorHint="#eee" />&ndash;&gt;-->
+
+
+<!--        </LinearLayout>-->
+
+        <EditText
+            android:id="@+id/id_search_EditText"
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="393dp"
+            android:layout_marginBottom="253dp"
+            android:background="@drawable/mobileloginbgbtn"
+            android:elevation="5dp"
+            android:fontFamily="@font/montserrat"
+            android:hint="+91 | Mobile Number"
+            android:paddingLeft="32dp"
+            android:shadowColor="@color/OrangeOne"
+            android:singleLine="true"
+            android:textColorHint="@color/fontgry" />
+
+        <ImageButton
+            android:id="@+id/id_search_button"
+            android:layout_width="47dp"
+            android:layout_height="47dp"
+            android:layout_alignTop="@+id/id_search_EditText"
+            android:layout_alignRight="@+id/id_search_EditText"
+            android:layout_alignBottom="@+id/id_search_EditText"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/sliderorangedot"
+            android:elevation="5dp"
+            android:src="@drawable/ic_next" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_search_button"
+            android:layout_marginTop="97dp"
+            android:gravity="center"
+            android:text="Skip Login/Signup..."
+            android:textColor="@color/fontgry" />
+
+        <Button
+            android:id="@+id/Maingooglebutton"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="269dp"
+            android:layout_marginBottom="175dp"
+            android:background="@drawable/googleloginbgbtn"
+            android:drawableLeft="@drawable/ic_search"
+            android:drawablePadding="-30dp"
+            android:elevation="5dp"
+            android:fontFamily="@font/montserrat"
+            android:hint="Sign Up With Google"
+            android:paddingLeft="32dp"
+            android:shadowColor="@color/OrangeOne"
+            android:textColorHint="#eee" />
+    </RelativeLayout>
+
+</RelativeLayout>

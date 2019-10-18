@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Bg"
+    tools:context=".otp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="22dp">
+
+        <EditText
+            android:id="@+id/loginName"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_below="@+id/loginEmail"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/loginedittext"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawablePadding="20dp"
+            android:fontFamily="@font/montserrat"
+            android:hint="Enter Name"
+            android:paddingLeft="22dp" />
+
+        <EditText
+            android:id="@+id/loginEmail"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/loginedittext"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:drawablePadding="20dp"
+            android:fontFamily="@font/montserrat"
+            android:hint="Enter Email"
+            android:paddingLeft="22dp" />
+
+        <LinearLayout
+            android:id="@+id/otpNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/otpText"
+            android:layout_margin="22dp">
+
+            <EditText
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:backgroundTint="@color/BlueTwo"
+                android:hint="1 2 3 4 5 6"
+                android:textColorHint="@color/BlueTwo"
+                android:id="@+id/otpCode"/>
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/resendotp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/otpNumber"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="22dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Resend OTP"
+                android:textColor="@color/BlueTwo"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="22dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Call me to verify"
+                android:textColor="@color/BlueTwo"
+                android:textSize="16dp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:id="@+id/otpText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/loginName"
+            android:layout_marginTop="22dp"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:background="@drawable/loginrecivecircle"
+                android:src="@drawable/ic_check_black_24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="15dp"
+                android:fontFamily="@font/montserrat"
+                android:text="OTP Received successfully "
+                android:textColor="@color/BlueTwo"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/BTnCreateAccount"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_below="@id/resendotp"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="69dp"
+            android:background="@drawable/googleloginbgbtn"
+            android:elevation="5dp"
+            android:fontFamily="@font/montserrat"
+            android:hint="Create Account"
+            android:shadowColor="@color/OrangeOne"
+            android:textColorHint="#eee"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/BTnCreateAccount"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="22dp"
+            android:textSize="16dp"
+            android:fontFamily="@font/montserrat"
+            android:text=" By creating account ,I agree to PGROOM's Terms and Condition and Privacy Policy"
+            android:textAlignment="center" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

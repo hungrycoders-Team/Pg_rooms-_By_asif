@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="BlueOne">#6A37D3</color>
+    <color name="BlueTwo">#6C63FF</color>
+    <color name="ScreenBg">#F8F8F8</color>
+    <color name="OrangeOne">#F45C43</color>
+    <color name="OrangeTwo">#EB3349</color>
+    <color name="Bg">#E7E7EB</color>
+    <color name="fontblue">#6C63FF</color>
+    <color name="fontgry">#999999</color>
+</resources>

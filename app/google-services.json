@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "302130953767",
+    "firebase_url": "https://pgrooms-c1a19.firebaseio.com",
+    "project_id": "pgrooms-c1a19",
+    "storage_bucket": "pgrooms-c1a19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302130953767:android:71249a75cae58750f81802",
+        "android_client_info": {
+          "package_name": "com.hungrycoders.pg_rooms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "302130953767-mfnj2l4v9s1uj7c596pf5us893o90heh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hungrycoders.pg_rooms",
+            "certificate_hash": "527a0a02dd0f2f4d214f0a03782d9bb80636e6af"
+          }
+        },
+        {
+          "client_id": "302130953767-5hfgvsbf863dh4jtl4rpgacclonj8n4u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hungrycoders.pg_rooms",
+            "certificate_hash": "0a987c204b5fa98b0066420b1ea3e6f5a90103ae"
+          }
+        },
+        {
+          "client_id": "302130953767-05n4v1bjf2dbnb9lrj62dld57rocr2k2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2I9jwruIvn-B_YENqBpGpJvZUOGhVdGo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "302130953767-05n4v1bjf2dbnb9lrj62dld57rocr2k2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
